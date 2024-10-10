@@ -1,0 +1,10 @@
+l1=[4,6,3,12,76]
+l2=[5,12,6,7,12]
+c=map(lambda x,y:x+y, l1,l2)
+print('new list', list(c))
+
+l3=[1,3,5,7,12,34]
+def sq(n):
+    return n*n
+l4=map(sq,l3)
+print('new list', list(l4))
